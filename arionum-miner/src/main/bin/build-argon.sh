@@ -4,11 +4,11 @@ echo This runscript will attempt to clone and build a custom version of argon2i 
 echo It will also modify the run.sh file to use the built version of argon2i.
 echo It requires git, make, and gcc to be installed. It assumes you have a 64 bit cpu.
 
-git clone git://github.com/ProgrammerDan/arionum-argon2 arionum-argon
+git clone https://github.com/rattfieldnz/arionum-argon2 arionum-argon
 
 cd arionum-argon
 
-git remote set-url origin git://github.com/ProgrammerDan/arionum-argon2
+git remote set-url origin https://github.com/rattfieldnz/arionum-argon2
 
 git pull
 
